@@ -3,7 +3,7 @@
 ## Overview  
 This project demonstrates a complete machine learning workflow—from data ingestion to model deployment—in Python. Leveraging CatBoost for structured data modeling, the trained model is served via a Flask web application for real-time inference.
 
-<img src="https://github.com/Harry160820/End-to-End-ML-Deployment-with-CatBoost/edit/main/README.md#:~:text=to%2Dend%2DML.-,png,-README.md" alt="Alt text" width="500">
+<img src="https://github.com/Harry160820/End-to-End-ML-Deployment-with-CatBoost/blob/main/End-to-end-ML.png" width="500">
 
 ## Tech Stack  
 - **Data Processing & Modeling**: Python, pandas, NumPy, CatBoost  
