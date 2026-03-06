@@ -1,9 +1,9 @@
-# End-to-End ML Deployment with CatBoost 🚀
+# End-to-End ML Deployment with CatBoost 
 
-## 📘 Overview  
+## Overview  
 This project demonstrates a complete machine learning workflow—from data ingestion to model deployment—in Python. Leveraging CatBoost for structured data modeling, the trained model is served via a Flask web application for real-time inference.
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 - **Data Processing & Modeling**: Python, pandas, NumPy, CatBoost  
 - **Web App**: Flask (app.py)  
 - **Project Structure**:
@@ -12,28 +12,28 @@ This project demonstrates a complete machine learning workflow—from data inges
   - `app.py`: Flask API for model predictions  
 - **Dependencies**: Listed in `requirements.txt`, managed via `setup.py`
 
-## 🧩 Features  
+## Features  
 - Preprocess raw data, engineer features, train & validate a CatBoost model  
 - Save trained model and load using `joblib` within Flask  
 - Build REST API endpoint that accepts input JSON and returns predictions  
 
-## 📈 Results  
+## Results  
 - Achieved **88.04% accuracy** 
 - API supports **100+ requests per minute** at <50ms latency (benchmark locally)  
 
-## 🚀 Usage  
+## Usage  
 1. Clone the repo  
 2. `pip install -r requirements.txt`  
 3. Run `main.py` to preprocess, train & save model  
 4. Start server: `python app.py`  
 5. Send POST requests to `/predict` with JSON input  
 
-## 🧪 Next Steps  
+## Next Steps  
 - Integrate CI/CD with GitHub Actions  
 - Dockerize the app for scalable deployment  
 - Add authentication, logging, and visualization in Flask UI
 
-## 🤝 Contributing  
+## Contributing  
 Feel free to open issues or PRs. For major changes, kindly create an issue to discuss first.
 
 ---
